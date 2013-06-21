@@ -53,7 +53,7 @@ public class Spiral {
 
 		displayMatrix[center][center] = 0;
 
-		// create the spiral in a display matrix to be show later
+		// create the spiral in a display matrix to be shown later
 		while (count < spiralLength) {
 			insertIntoMatrix(true);
 			insertIntoMatrix(false);
