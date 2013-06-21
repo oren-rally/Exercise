@@ -6,7 +6,7 @@
 public class Spiral {
 
 	// the number of integers to display in the spiral
-	int spiralLength = 125; // CHANGE THIS TO INCREASE OR DECREASE THE SPIRAL LENGTH
+	int spiralLength = 25; // CHANGE THIS TO INCREASE OR DECREASE THE SPIRAL LENGTH
 
 	// calculate the dimension of the square spiral
 	int dimensions = (int) Math.ceil(Math.sqrt(spiralLength));
